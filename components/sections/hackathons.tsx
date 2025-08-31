@@ -2,6 +2,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Calendar, MapPin, Users, Trophy } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 const hackathons = [
@@ -70,7 +71,7 @@ export function Hackathons() {
           {hackathons.map((hackathon) => (
             <Card key={hackathon.id} className="overflow-hidden hover:shadow-xl transition-all duration-300 border-border/50">
               <div className="relative">
-                <img
+                <Image
                   src={hackathon.image}
                   alt={hackathon.title}
                   className="w-full h-48 object-cover"
