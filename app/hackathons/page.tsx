@@ -6,7 +6,8 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Calendar, MapPin, Users, Trophy, Clock, Award } from 'lucide-react';
+import { Calendar, MapPin, Users, Trophy,} from 'lucide-react';
+import Image from 'next/image';
 
 const hackathons = [
   {
@@ -167,6 +168,9 @@ const itemVariants: Variants = {
   }
 };
 
+const MotionImage = motion(Image);
+
+
 
 export default function HackathonsPage() {
   const [heroRef, heroInView] = useInView({ threshold: 0.3, triggerOnce: true });
@@ -226,7 +230,7 @@ export default function HackathonsPage() {
               >
                 <Card className="overflow-hidden hover:shadow-2xl transition-all duration-500 border-border/50 h-full">
                   <div className="relative overflow-hidden">
-                    <motion.img
+                    <MotionImage
                       src={hackathon.image}
                       alt={hackathon.title}
                       className="w-full h-64 object-cover"

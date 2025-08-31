@@ -33,8 +33,8 @@ export function About() {
             About Tech4Hack
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We're more than just a tech community. We're a movement dedicated to empowering 
-            the next generation of innovators, fostering collaboration, and building 
+            We&apos;re more than just a tech community. We&apos;re a movement dedicated to empowering
+            the next generation of innovators, fostering collaboration, and building
             technologies that make a difference.
           </p>
         </div>
@@ -67,7 +67,7 @@ export function About() {
             </p>
             <p className="text-muted-foreground">
               Through workshops, hackathons, networking events, and collaborative projects, 
-              we're building a ecosystem that nurtures creativity, promotes knowledge sharing, 
+              we&apos;re building a ecosystem that nurtures creativity, promotes knowledge sharing, 
               and transforms ideas into reality.
             </p>
           </div>

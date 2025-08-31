@@ -106,12 +106,12 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-50/50 via-blue-50/30 to-green-50/50 dark:from-purple-950/20 dark:via-blue-950/20 dark:to-green-950/20" />
-        
-        <motion.div 
+
+        <motion.div
           ref={heroRef}
           initial="hidden"
           animate={heroInView ? "visible" : "hidden"}
@@ -119,7 +119,7 @@ export default function AboutPage() {
           className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
           <div className="text-center">
-            <motion.h1 
+            <motion.h1
               variants={itemVariants}
               className="text-4xl md:text-6xl font-bold text-foreground mb-6"
             >
@@ -128,15 +128,17 @@ export default function AboutPage() {
                 Tech4Hack
               </span>
             </motion.h1>
-            
-            <motion.p 
+
+            <motion.p
               variants={itemVariants}
               className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12"
             >
-              We&#39;re more than just a tech community. We&#39;re a movement dedicated to empowering 
-              the next generation of innovators, fostering collaboration, and building 
+              We&#39;re more than just a tech community. We&#39;re a movement dedicated to empowering
+              the next generation of innovators, fostering collaboration, and building
               technologies that make a difference.
             </motion.p>
+
+
           </div>
         </motion.div>
       </section>
@@ -157,7 +159,7 @@ export default function AboutPage() {
                 <motion.div key={index} variants={itemVariants}>
                   <Card className="h-full hover:shadow-xl transition-all duration-500 border-border/50 group">
                     <CardContent className="p-6 text-center h-full flex flex-col">
-                      <motion.div 
+                      <motion.div
                         className={`w-16 h-16 bg-gradient-to-r ${feature.color} rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}
                         whileHover={{ rotate: 360 }}
                         transition={{ duration: 0.6 }}
@@ -187,30 +189,31 @@ export default function AboutPage() {
           >
             <motion.div variants={itemVariants}>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Our Mission</h2>
-              <motion.p 
+              <motion.p
                 className="text-muted-foreground mb-6 text-lg leading-relaxed"
                 initial={{ opacity: 0, x: -50 }}
                 animate={missionInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
-                At Tech4Hack, we believe in the power of community-driven innovation. 
-                Our mission is to create an inclusive environment where aspiring developers, 
-                seasoned professionals, and curious minds can come together to learn, 
+                At Tech4Hack, we believe in the power of community-driven innovation.
+                Our mission is to create an inclusive environment where aspiring developers,
+                seasoned professionals, and curious minds can come together to learn,
                 build, and create meaningful impact through technology.
               </motion.p>
-              <motion.p 
+              <motion.p
                 className="text-muted-foreground text-lg leading-relaxed"
                 initial={{ opacity: 0, x: -50 }}
                 animate={missionInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
                 transition={{ delay: 0.5, duration: 0.6 }}
               >
-                Through workshops, hackathons, networking events, and collaborative projects, 
-                we&#39;re building an ecosystem that nurtures creativity, promotes knowledge sharing, 
+                Through workshops, hackathons, networking events, and collaborative projects,
+                we&#39;re building an ecosystem that nurtures creativity, promotes knowledge sharing,
                 and transforms ideas into reality.
               </motion.p>
+
             </motion.div>
-            
-            <motion.div 
+
+            <motion.div
               variants={itemVariants}
               className="grid grid-cols-2 gap-6"
             >
@@ -226,7 +229,7 @@ export default function AboutPage() {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Card className="p-6 text-center border-border/50 hover:shadow-lg transition-shadow">
-                    <motion.div 
+                    <motion.div
                       className="text-3xl font-bold text-primary mb-2"
                       initial={{ scale: 0 }}
                       animate={missionInView ? { scale: 1 } : { scale: 0 }}

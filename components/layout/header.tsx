@@ -1,10 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Menu, X, Code } from 'lucide-react';
+import { Menu, X,} from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/theme-toggle';
+import Image from 'next/image';
+
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -87,7 +89,7 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             {/* <Code className="h-8 w-8 text-primary" /> */}
-            <img src="/Tech4Hack.png" alt="Tech4Hack Logo" className="h-8 w-auto" />
+            <Image src="/Tech4Hack.png" alt="Tech4Hack Logo" className="h-8 w-auto" />
             <span className="font-bold text-xl text-foreground">Tech4Hack</span>
           </div>
 

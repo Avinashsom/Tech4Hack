@@ -1,5 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import Image from 'next/image';
 
 const teamMembers = [
   {
@@ -77,7 +78,7 @@ export function Team() {
             <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-border/50 hover:border-primary/20">
               <CardContent className="p-6">
                 <div className="relative mb-6">
-                  <img
+                  <Image
                     src={member.image}
                     alt={member.name}
                     className="w-32 h-32 rounded-full mx-auto object-cover group-hover:scale-105 transition-transform duration-300"

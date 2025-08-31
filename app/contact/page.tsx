@@ -9,7 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Send, Clock,} from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Clock } from 'lucide-react';
 
 const contactInfo = [
   {
@@ -33,7 +33,7 @@ const contactInfo = [
     description: 'Come say hello at our office',
     color: 'from-purple-500 to-purple-600'
   },
- 
+
 ];
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -74,32 +74,32 @@ export default function ContactPage() {
   //   console.log('Form submitted:', formData);
   //   setFormData({ name: '', email: '', subject: '', message: '' });
   // };
-   
+
   const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  try {
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    });
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    if (res.ok) {
-      console.log('Email sent successfully!');
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      // Optionally show a success message or toast here
-    } else {
-      const data = await res.json();
-      console.error('Email send failed:', data.error);
-      // Optionally show an error message or toast here
+      if (res.ok) {
+        console.log('Email sent successfully!');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+        // Optionally show a success message or toast here
+      } else {
+        const data = await res.json();
+        console.error('Email send failed:', data.error);
+        // Optionally show an error message or toast here
+      }
+    } catch (err) {
+      console.error('Unexpected error:', err);
     }
-  } catch (err) {
-    console.error('Unexpected error:', err);
-  }
-};
+  };
 
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -112,19 +112,19 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-50/50 via-blue-50/30 to-green-50/50 dark:from-purple-950/20 dark:via-blue-950/20 dark:to-green-950/20" />
-        
-        <motion.div 
+
+        <motion.div
           ref={heroRef}
           initial="hidden"
           animate={heroInView ? "visible" : "hidden"}
           variants={containerVariants}
           className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
         >
-          <motion.h1 
+          <motion.h1
             variants={itemVariants}
             className="text-4xl md:text-6xl font-bold text-foreground mb-6"
           >
@@ -133,12 +133,12 @@ export default function ContactPage() {
               Touch
             </span>
           </motion.h1>
-          
-          <motion.p 
+
+          <motion.p
             variants={itemVariants}
             className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto"
           >
-            Ready to join our community? Have questions about our events? 
+            Ready to join our community? Have questions about our events?
             We&#39;d love to hear from you. Reach out and let&#39;s start a conversation.
           </motion.p>
         </motion.div>
@@ -167,7 +167,7 @@ export default function ContactPage() {
                     <Card className="border-border/50 hover:shadow-lg transition-all duration-300">
                       <CardContent className="p-6">
                         <div className="flex items-center space-x-4">
-                          <motion.div 
+                          <motion.div
                             className={`w-14 h-14 bg-gradient-to-r ${info.color} rounded-xl flex items-center justify-center`}
                             whileHover={{ rotate: 360 }}
                             transition={{ duration: 0.6 }}
@@ -259,7 +259,7 @@ export default function ContactPage() {
                         />
                       </motion.div>
                     </div>
-                    
+
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       animate={contactInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -274,7 +274,7 @@ export default function ContactPage() {
                         className="h-12"
                       />
                     </motion.div>
-                    
+
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       animate={contactInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -290,15 +290,15 @@ export default function ContactPage() {
                         className="resize-none"
                       />
                     </motion.div>
-                    
+
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       animate={contactInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                       transition={{ delay: 0.7 }}
                     >
-                      <Button 
-                        type="submit" 
-                        size="lg" 
+                      <Button
+                        type="submit"
+                        size="lg"
                         className="w-full h-12 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
                       >
                         Send Message
