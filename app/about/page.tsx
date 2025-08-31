@@ -133,7 +133,7 @@ export default function AboutPage() {
               variants={itemVariants}
               className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12"
             >
-              We're more than just a tech community. We're a movement dedicated to empowering 
+              We&#39;re more than just a tech community. We&#39;re a movement dedicated to empowering 
               the next generation of innovators, fostering collaboration, and building 
               technologies that make a difference.
             </motion.p>
@@ -205,7 +205,7 @@ export default function AboutPage() {
                 transition={{ delay: 0.5, duration: 0.6 }}
               >
                 Through workshops, hackathons, networking events, and collaborative projects, 
-                we're building an ecosystem that nurtures creativity, promotes knowledge sharing, 
+                we&#39;re building an ecosystem that nurtures creativity, promotes knowledge sharing, 
                 and transforms ideas into reality.
               </motion.p>
             </motion.div>

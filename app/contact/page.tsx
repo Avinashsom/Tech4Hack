@@ -9,7 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Send, MessageCircle, Clock, Globe } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Clock,} from 'lucide-react';
 
 const contactInfo = [
   {
@@ -33,13 +33,7 @@ const contactInfo = [
     description: 'Come say hello at our office',
     color: 'from-purple-500 to-purple-600'
   },
-  // {
-  //   icon: MessageCircle,
-  //   title: 'Live Chat',
-  //   value: 'Available 24/7',
-  //   description: 'Get instant support',
-  //   color: 'from-orange-500 to-orange-600'
-  // }
+ 
 ];
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -145,7 +139,7 @@ export default function ContactPage() {
             className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto"
           >
             Ready to join our community? Have questions about our events? 
-            We'd love to hear from you. Reach out and let's start a conversation.
+            We&#39;d love to hear from you. Reach out and let&#39;s start a conversation.
           </motion.p>
         </motion.div>
       </section>
@@ -229,7 +223,7 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="text-2xl">Send us a message</CardTitle>
                   <p className="text-muted-foreground">
-                    Fill out the form below and we'll get back to you as soon as possible.
+                    Fill out the form below and we&#39;ll get back to you as soon as possible.
                   </p>
                 </CardHeader>
                 <CardContent>
