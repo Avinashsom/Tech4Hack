@@ -92,7 +92,7 @@ export function Header() {
             {/* <Image src="/Tech4Hack.png" alt="Tech4Hack Logo" className="h-8 w-8" /> */}
 
             <Image
-              src="/Tech4Hack.png"
+              src="/TECH4HACK.png"
               alt="Tech4Hack Logo"
               width={32} // 8 * 4 = 32px
               height={32}
@@ -132,7 +132,7 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden">
+          <div className="md:hidden mb-6  backdrop-blur-md">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-background border-t border-border">
               {navigation.map((item) => (
                 <button

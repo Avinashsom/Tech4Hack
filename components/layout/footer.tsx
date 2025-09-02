@@ -1,4 +1,4 @@
-import {Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
 import Image from 'next/image';
 
 export function Footer() {
@@ -8,7 +8,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Image src="/Tech4Hack.png" alt="Tech4Hack Logo" className="h-8 w-auto" />
+              <Image
+                src="/TECH4HACK.png"
+                alt="Tech4Hack Logo"
+                width={32} // 8 * 4 = 32px
+                height={32}
+                className="h-8 w-8"
+              />
               <span className="font-bold text-xl text-foreground">Tech4Hack</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
