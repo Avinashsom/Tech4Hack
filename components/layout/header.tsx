@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Menu, X,} from 'lucide-react';
+import { Menu, X, } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/theme-toggle';
@@ -89,7 +89,16 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             {/* <Code className="h-8 w-8 text-primary" /> */}
-            <Image src="/Tech4Hack.png" alt="Tech4Hack Logo" className="h-8 w-auto" />
+            {/* <Image src="/Tech4Hack.png" alt="Tech4Hack Logo" className="h-8 w-8" /> */}
+
+            <Image
+              src="/Tech4Hack.png"
+              alt="Tech4Hack Logo"
+              width={32} // 8 * 4 = 32px
+              height={32}
+              className="h-8 w-8" 
+            />
+
             <span className="font-bold text-xl text-foreground">Tech4Hack</span>
           </div>
 

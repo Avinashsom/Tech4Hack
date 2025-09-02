@@ -74,12 +74,15 @@ export function Hackathons() {
                 <Image
                   src={hackathon.image}
                   alt={hackathon.title}
+                  width={800}
+                  height={192} // h-48 = 12rem = 192px
                   className="w-full h-48 object-cover"
                 />
+
                 <div className="absolute top-4 left-4">
                   <span className={`px-3 py-1 rounded-full text-xs font-medium ${hackathon.status === 'upcoming'
-                      ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
-                      : 'bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300'
+                    ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
+                    : 'bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300'
                     }`}>
                     {hackathon.status === 'upcoming' ? 'Upcoming' : 'Completed'}
                   </span>

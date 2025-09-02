@@ -68,7 +68,7 @@ export function Team() {
             Meet Our Team
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            The passionate individuals behind Tech4Hack who are dedicated to building 
+            The passionate individuals behind Tech4Hack who are dedicated to building
             an amazing community and fostering innovation in technology.
           </p>
         </div>
@@ -81,16 +81,19 @@ export function Team() {
                   <Image
                     src={member.image}
                     alt={member.name}
+                    width={128}
+                    height={128}
                     className="w-32 h-32 rounded-full mx-auto object-cover group-hover:scale-105 transition-transform duration-300"
                   />
+
                   <div className="absolute inset-0 w-32 h-32 rounded-full mx-auto bg-gradient-to-br from-purple-500/20 to-blue-500/20 group-hover:from-purple-500/30 group-hover:to-blue-500/30 transition-all duration-300" />
                 </div>
-                
+
                 <div className="text-center">
                   <h3 className="font-semibold text-lg text-foreground mb-1">{member.name}</h3>
                   <p className="text-primary font-medium mb-3">{member.role}</p>
                   <p className="text-sm text-muted-foreground mb-4">{member.bio}</p>
-                  
+
                   <div className="flex justify-center space-x-3">
                     <a href={member.github} className="p-2 rounded-full hover:bg-muted transition-colors">
                       <Github className="h-4 w-4 text-muted-foreground hover:text-foreground" />
