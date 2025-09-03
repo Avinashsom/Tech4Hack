@@ -36,38 +36,6 @@ export function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // const scrollToSection = (href: string) => {
-  //   if (!hydrated) return;
-
-  //   if (href.startsWith('#')) {
-  //     const element = document.querySelector(href);
-  //     if (element) {
-  //       element.scrollIntoView({ behavior: 'smooth' });
-  //       setIsOpen(false);
-  //     }
-  //   } else {
-  //     router.push(href);
-  //     setIsOpen(false);
-  //   }
-  // };
-  ////////////////////////////////////
-  //   const scrollToSection = (href: string) => {
-  //   if (!hydrated) return;
-
-  //   const isAnchor = href.startsWith('#');
-  //   if (isAnchor) {
-  //     const element = document.querySelector(href);
-  //     if (element) {
-  //       element.scrollIntoView({ behavior: 'smooth' });
-  //       setIsOpen(false);
-  //     }
-  //   } else {
-  //     // Navigate to another page
-  //     router.push(href);
-  //     setIsOpen(false);
-  //   }
-  // };
-
   const navigateToPage = (href: string) => {
     // console.log("Navigating to", href); // DEBUG
     if (!hydrated) return;
