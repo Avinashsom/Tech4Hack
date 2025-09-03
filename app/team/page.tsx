@@ -48,7 +48,7 @@ const teamMembers = [
     bio: 'Mobile app developer and UI/UX enthusiast building delightful experiences. Specializes in React Native and Flutter.',
     longBio: 'Avinash has developed mobile applications that have been downloaded millions of times. His focus on user experience and performance optimization has made him a sought-after consultant in the mobile development space.',
     github: '#',
-    linkedin: '#',
+    linkedin: 'https://www.linkedin.com/in/avinash-som-4613ab330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     twitter: '#',
     email: 'avinash@tech4hack.com'
   },

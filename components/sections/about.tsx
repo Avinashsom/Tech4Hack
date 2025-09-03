@@ -74,19 +74,19 @@ export function About() {
           
           <div className="grid grid-cols-2 gap-4">
             <Card className="p-6 text-center border-border/50">
-              <div className="text-2xl font-bold text-primary mb-2">2020</div>
+              <div className="text-2xl font-bold text-primary mb-2">2025</div>
               <div className="text-sm text-muted-foreground">Founded</div>
             </Card>
             <Card className="p-6 text-center border-border/50">
-              <div className="text-2xl font-bold text-primary mb-2">15+</div>
+              <div className="text-2xl font-bold text-primary mb-2">5+</div>
               <div className="text-sm text-muted-foreground">Cities</div>
             </Card>
             <Card className="p-6 text-center border-border/50">
-              <div className="text-2xl font-bold text-primary mb-2">100+</div>
+              <div className="text-2xl font-bold text-primary mb-2">15+</div>
               <div className="text-sm text-muted-foreground">Events</div>
             </Card>
             <Card className="p-6 text-center border-border/50">
-              <div className="text-2xl font-bold text-primary mb-2">50k+</div>
+              <div className="text-2xl font-bold text-primary mb-2">5k+</div>
               <div className="text-sm text-muted-foreground">Community Reach</div>
             </Card>
           </div>

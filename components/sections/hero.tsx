@@ -19,7 +19,7 @@ export function Hero() {
   // };
 
   const stats = [
-    { value: '50+', label: 'Active Members' },
+    { value: '900+', label: 'Active Members' },
     { value: '30+', label: 'Projects Built' },
     { value: '15+', label: 'Hackathons Hosted' }
   ];

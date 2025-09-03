@@ -36,7 +36,7 @@ const teamMembers = [
     image: '/Avinash.jpg',
     bio: 'Mobile app developer and UI/UX enthusiast building delightful experiences.',
     github: '#',
-    linkedin: '#',
+    linkedin: 'https://www.linkedin.com/in/avinash-som-4613ab330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     twitter: '#'
   },
   {
