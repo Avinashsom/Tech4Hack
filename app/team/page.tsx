@@ -9,70 +9,92 @@ import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: 'Sarah Chen',
-    role: 'Founder & CEO',
-    image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Naitik Kumar',
+    role: 'Founder & Lead',
+    image: '/Naitik.jpg',
     bio: 'Full-stack developer with 8+ years experience in fintech and AI. Passionate about building inclusive tech communities.',
-    longBio: 'Sarah founded Tech4Hack with a vision to democratize technology education and create opportunities for underrepresented groups in tech. She has previously worked at major tech companies and has been instrumental in launching several successful startups.',
+    longBio: 'Naitik founded Tech4Hack with a vision to democratize technology education and create opportunities for underrepresented groups in tech. He has previously worked at major tech companies and has been instrumental in launching several successful startups.',
     github: '#',
     linkedin: '#',
     twitter: '#',
-    email: 'sarah@tech4hack.com'
+    email: 'naitik@tech4hack.com'
   },
   {
-    name: 'Marcus Johnson',
-    role: 'CTO',
-    image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Yash Goyal',
+    role: 'Co-Founder & Co-Lead',
+    image: '/Yash.jpg',
     bio: 'Former Google engineer passionate about open source and education. Leads our technical initiatives and platform development.',
-    longBio: 'Marcus brings over 10 years of experience in distributed systems and cloud architecture. He is a strong advocate for open source technologies and has contributed to numerous projects that power modern web applications.',
+    longBio: 'Yash brings over 10 years of experience in distributed systems and cloud architecture. He is a strong advocate for open source technologies and has contributed to numerous projects that power modern web applications.',
     github: '#',
     linkedin: '#',
     twitter: '#',
-    email: 'marcus@tech4hack.com'
+    email: 'yash@tech4hack.com'
   },
   {
-    name: 'Priya Patel',
-    role: 'Head of Community',
-    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Kushagra Sharma',
+    role: 'Core Team Member',
+    image: '/Kushagra.jpg',
     bio: 'Community builder and developer advocate with a love for mentorship. Organizes our events and manages community engagement.',
-    longBio: 'Priya has built and managed tech communities across three continents. Her expertise in community engagement and event management has helped Tech4Hack grow from a small meetup to a global movement.',
+    longBio: 'Kushagra has built and managed tech communities across three continents. His expertise in community engagement and event management has helped Tech4Hack grow from a small meetup to a global movement.',
     github: '#',
     linkedin: '#',
     twitter: '#',
-    email: 'priya@tech4hack.com'
+    email: 'kushagra@tech4hack.com'
   },
   {
-    name: 'Alex Rodriguez',
-    role: 'Lead Developer',
-    image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Avinash Som',
+    role: 'Technical Lead',
+    image: '/Avinash.jpg',
     bio: 'Mobile app developer and UI/UX enthusiast building delightful experiences. Specializes in React Native and Flutter.',
-    longBio: 'Alex has developed mobile applications that have been downloaded millions of times. His focus on user experience and performance optimization has made him a sought-after consultant in the mobile development space.',
+    longBio: 'Avinash has developed mobile applications that have been downloaded millions of times. His focus on user experience and performance optimization has made him a sought-after consultant in the mobile development space.',
     github: '#',
     linkedin: '#',
     twitter: '#',
-    email: 'alex@tech4hack.com'
+    email: 'avinash@tech4hack.com'
   },
   {
-    name: 'Emily Wang',
-    role: 'Event Coordinator',
-    image: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=400',
+   name: 'Khushi Mavi',
+    role: 'Content Lead',
+    image: '/Khushi.jpg',
     bio: 'Event management expert specializing in tech conferences and hackathons. Ensures every event runs smoothly and delivers value.',
-    longBio: 'Emily has coordinated over 200 tech events, from intimate workshops to large-scale conferences. Her attention to detail and ability to manage complex logistics has made our events memorable experiences for attendees.',
+    longBio: 'Khushi has coordinated over 200 tech events, from intimate workshops to large-scale conferences. Her attention to detail and ability to manage complex logistics has made our events memorable experiences for attendees.',
     github: '#',
     linkedin: '#',
     twitter: '#',
-    email: 'emily@tech4hack.com'
+    email: 'khushi@tech4hack.com'
   },
   {
-    name: 'David Kim',
-    role: 'Marketing Director',
-    image: 'https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Pratha Sharma',
+    role: 'Graphic Designer',
+    image: '/Pratha.jpg',
     bio: 'Digital marketing strategist helping tech communities grow and thrive. Expert in content marketing and social media strategy.',
-    longBio: 'David has helped numerous tech startups and communities build their brand and reach their target audience. His data-driven approach to marketing has consistently delivered impressive growth results.',
+    longBio: 'Pratha has helped numerous tech startups and communities build their brand and reach their target audience. Her data-driven approach to marketing has consistently delivered impressive growth results.',
     github: '#',
     linkedin: '#',
     twitter: '#',
-    email: 'david@tech4hack.com'
+    email: 'pratha@tech4hack.com'
+  },
+  {
+    name: 'Lamiya',
+    role: 'Visual Team Manager',
+    image: '/Lamiya.jpg',
+    bio: 'Creative leader with a passion for visual storytelling. Manages our design team and ensures brand consistency across all platforms.',
+    longBio: 'Lamiya has over 8 years of experience in graphic design and visual communication. She has worked with various tech companies to create compelling visual content that resonates with audiences.',
+    github: '#',
+    linkedin: '#',
+    twitter: '#',
+    email: 'lamiya@tech4hack.com'
+  },
+  {
+    name: 'Pukhraj',
+    role: 'Visual Team Member',
+    image: '/Pukhraj.jpg',
+    bio: 'Digital marketing strategist helping tech communities grow and thrive. Expert in content marketing and social media strategy.',
+    longBio: 'Pukhraj has helped numerous tech startups and communities build their brand and reach their target audience. His data-driven approach to marketing has consistently delivered impressive growth results.',
+    github: '#',
+    linkedin: '#',
+    twitter: '#',
+    email: 'pukhraj@tech4hack.com'
   }
 ];
 const containerVariants: Variants = {

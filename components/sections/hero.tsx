@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import Link from 'next/link';
 
 export function Hero() {
   const [mounted, setMounted] = useState(false);
@@ -13,9 +14,9 @@ export function Hero() {
     setMounted(true);
   }, []);
 
-  const scrollToContact = () => {
-    document?.querySelector('https://linktr.ee/tech4hack')?.scrollIntoView({ behavior: 'smooth' });
-  };
+  // const scrollToContact = () => {
+  //   document?.querySelector('https://linktr.ee/tech4hack')?.scrollIntoView({ behavior: 'smooth' });
+  // };
 
   const stats = [
     { value: '50+', label: 'Active Members' },
@@ -26,9 +27,9 @@ export function Hero() {
   return (
     <section id="home"
       className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 sm:pt-0"
-      >
+    >
 
-    {/* className="min-h-screen flex items-center justify-center relative overflow-hidden" */}
+      {/* className="min-h-screen flex items-center justify-center relative overflow-hidden" */}
       {/* Background gradient */}
       <motion.div
         className="absolute inset-0 bg-gradient-to-br from-purple-50/50 via-blue-50/30 to-green-50/50 dark:from-purple-950/20 dark:via-blue-950/20 dark:to-green-950/20"
@@ -121,14 +122,16 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 1.2 }}
         >
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-3 rounded-full transition-all duration-300"
-              onClick={scrollToContact}
-            >
-              Join Our Community
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Link href="https://linktr.ee/tech4hack">
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-3 rounded-full transition-all duration-300"
+              // onClick={scrollToContact}
+              >
+                Join Our Community
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button
