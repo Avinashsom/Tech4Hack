@@ -15,16 +15,9 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email Us',
-    value: 'hello@tech4hack.com',
+    value: 'tech4hack.connect@gmail.com',
     description: 'Send us an email anytime',
     color: 'from-blue-500 to-blue-600'
-  },
-  {
-    icon: Phone,
-    title: 'Call Us',
-    value: '+1 (555) 123-4567',
-    description: 'Mon-Fri from 8am to 6pm',
-    color: 'from-green-500 to-green-600'
   },
   {
     icon: MapPin,

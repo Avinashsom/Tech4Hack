@@ -14,7 +14,7 @@ export function Hero() {
   }, []);
 
   const scrollToContact = () => {
-    document?.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+    document?.querySelector('https://linktr.ee/tech4hack')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   const stats = [

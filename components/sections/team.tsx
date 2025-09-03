@@ -4,54 +4,72 @@ import Image from 'next/image';
 
 const teamMembers = [
   {
-    name: 'Sarah Chen',
-    role: 'Founder & CEO',
-    image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Naitik Kumar',
+    role: 'Founder & Lead',
+    image: '/Naitik.jpg',
     bio: 'Full-stack developer with 8+ years experience in fintech and AI.',
     github: '#',
     linkedin: '#',
     twitter: '#'
   },
   {
-    name: 'Marcus Johnson',
-    role: 'CTO',
-    image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Yash Goyal',
+    role: 'Co-Founder & Co-Lead',
+    image: '/Yash.jpg',
     bio: 'Former Google engineer passionate about open source and education.',
     github: '#',
     linkedin: '#',
     twitter: '#'
   },
   {
-    name: 'Priya Patel',
-    role: 'Head of Community',
-    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Kushagra Sharma',
+    role: 'Core Team Member',
+    image: '/Kushagra.jpg',
     bio: 'Community builder and developer advocate with a love for mentorship.',
     github: '#',
     linkedin: '#',
     twitter: '#'
   },
   {
-    name: 'Alex Rodriguez',
-    role: 'Lead Developer',
-    image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Avinash Som',
+    role: 'Technical Lead',
+    image: '/Avinash.jpg',
     bio: 'Mobile app developer and UI/UX enthusiast building delightful experiences.',
     github: '#',
     linkedin: '#',
     twitter: '#'
   },
   {
-    name: 'Emily Wang',
-    role: 'Event Coordinator',
-    image: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Khushi Mavi',
+    role: 'Content Lead',
+    image: '/Khushi.jpg',
     bio: 'Event management expert specializing in tech conferences and hackathons.',
     github: '#',
     linkedin: '#',
     twitter: '#'
   },
   {
-    name: 'David Kim',
-    role: 'Marketing Director',
-    image: 'https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=400',
+    name: 'Pratha Sharma',
+    role: 'Graphic Designer',
+    image: '/Pratha.jpg',
+    bio: 'Digital marketing strategist helping tech communities grow and thrive.',
+    github: '#',
+    linkedin: '#',
+    twitter: '#'
+  },
+  {
+    name: 'Lamiya',
+    role: 'Visual Team Manager',
+    image: '/Lamiya.jpg',
+    bio: 'Digital marketing strategist helping tech communities grow and thrive.',
+    github: '#',
+    linkedin: '#',
+    twitter: '#'
+  },
+  {
+    name: 'Pukhraj',
+    role: 'Visual Team Member',
+    image: '/Pukhraj.jpg',
     bio: 'Digital marketing strategist helping tech communities grow and thrive.',
     github: '#',
     linkedin: '#',
