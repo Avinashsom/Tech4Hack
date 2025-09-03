@@ -132,7 +132,7 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden mb-6  backdrop-blur-md">
+          <div className="md:hidden mb-10 backdrop-blur-md">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-background border-t border-border">
               {navigation.map((item) => (
                 <button
