@@ -9,6 +9,7 @@ import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ['latin'] })
 
+
 export const metadata: Metadata = {
   title: 'Tech4Hack – INNOVATE. COLLABORATE. ELEVATE.',
   description:
@@ -59,7 +60,7 @@ export const metadata: Metadata = {
     siteName: 'Tech4Hack',
     images: [
       {
-        url: '/og-image.png', // Place in /public
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Tech4Hack Open Graph Image',
@@ -84,6 +85,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+<meta name="google-site-verification" content="3FmbaR0XUJ3Uw24olDcBMtkHMFD2LXGE8eKPWki36Y0" />
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
