@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Github, Twitter, Linkedin, Mail, Instagram } from 'lucide-react';
 import Image from 'next/image';
 
 export function Footer() {
@@ -11,7 +11,7 @@ export function Footer() {
               <Image
                 src="/TECH4HACK.png"
                 alt="Tech4Hack Logo"
-                width={32} // 8 * 4 = 32px
+                width={32}
                 height={32}
                 className="h-8 w-8"
               />
@@ -22,10 +22,10 @@ export function Footer() {
               collaboration, and cutting-edge hackathons.
             </p>
             <div className="flex space-x-4">
+              <Linkedin href='https://www.linkedin.com/company/tech4hack/' className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
               <Github className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
-              <Twitter className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
-              <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
-              <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
+              <Instagram href='https://www.instagram.com/tech4hack.community/' className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
+              <Mail href='mailto:tech4hack.community@gmail.com' className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
             </div>
           </div>
 
