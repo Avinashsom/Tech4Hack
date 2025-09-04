@@ -218,10 +218,10 @@ export default function AboutPage() {
               className="grid grid-cols-2 gap-6"
             >
               {[
-                { label: 'Founded', value: '2020' },
-                { label: 'Cities', value: '15+' },
-                { label: 'Events', value: '100+' },
-                { label: 'Community Reach', value: '50k+' }
+                { label: 'Founded', value: '2025' },
+                { label: 'Cities', value: '5+' },
+                { label: 'Events', value: '10+' },
+                { label: 'Community Reach', value: '5k+' }
               ].map((stat, index) => (
                 <motion.div
                   key={index}

@@ -82,7 +82,7 @@ export function About() {
               <div className="text-sm text-muted-foreground">Cities</div>
             </Card>
             <Card className="p-6 text-center border-border/50">
-              <div className="text-2xl font-bold text-primary mb-2">15+</div>
+              <div className="text-2xl font-bold text-primary mb-2">10+</div>
               <div className="text-sm text-muted-foreground">Events</div>
             </Card>
             <Card className="p-6 text-center border-border/50">

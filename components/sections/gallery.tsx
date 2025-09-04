@@ -8,51 +8,51 @@ import { X } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    src: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Hackathon 2024',
-    category: 'Events'
+    src: '/photo1.jpg',
+    title: 'Hackathon 2025',
+    category: 'Events',
   },
   {
     id: 2,
-    src: 'https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Team Workshop',
-    category: 'Workshops'
+    src: '/photo2.jpg',
+    title: 'Hackhaven',
+    category: 'Hackathon',
   },
   {
     id: 3,
-    src: 'https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo3.jpg',
     title: 'Community Meetup',
-    category: 'Community'
+    category: 'Community',
   },
   {
     id: 4,
-    src: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Award Ceremony',
-    category: 'Awards'
+    src: '/photo4.jpg',
+    title: 'Hackathon',
+    category: 'Hackathon',
   },
   {
     id: 5,
-    src: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo5.jpg',
     title: 'Coding Session',
-    category: 'Workshops'
+    category: 'Workshops',
   },
   {
     id: 6,
-    src: 'https://images.pexels.com/photos/1181355/pexels-photo-1181355.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Project Demo',
-    category: 'Events'
+    src: '/photo6.jpg',
+    title: 'Community Meetup',
+    category: 'Community',
   },
   {
     id: 7,
-    src: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo7.jpg',
     title: 'Networking Event',
-    category: 'Community'
+    category: 'Community',
   },
   {
     id: 8,
-    src: 'https://images.pexels.com/photos/1181346/pexels-photo-1181346.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo8.jpg',
     title: 'Tech Talk',
-    category: 'Workshops'
+    category: 'Events',
   }
 ];
 

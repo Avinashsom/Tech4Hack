@@ -12,87 +12,94 @@ import { Variants } from 'framer-motion';
 const galleryImages = [
   {
     id: 1,
-    src: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Hackathon 2024',
+    src: '/photo1.jpg',
+    title: 'Hackathon 2025',
     category: 'Events',
     description: 'Our biggest hackathon yet with over 500 participants from around the world.'
   },
   {
     id: 2,
-    src: 'https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Team Workshop',
-    category: 'Workshops',
+    src: '/photo2.jpg',
+    title: 'Hackhaven',
+    category: 'Hackathon',
     description: 'Intensive coding workshop focusing on modern web development frameworks.'
   },
   {
     id: 3,
-    src: 'https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo3.jpg',
     title: 'Community Meetup',
     category: 'Community',
     description: 'Monthly community gathering where members share their latest projects.'
   },
   {
     id: 4,
-    src: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Award Ceremony',
-    category: 'Awards',
+    src: '/photo4.jpg',
+    title: 'Hackathon',
+    category: 'Hackathon',
     description: 'Celebrating the winners of our annual innovation challenge.'
   },
   {
     id: 5,
-    src: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo5.jpg',
     title: 'Coding Session',
     category: 'Workshops',
     description: 'Collaborative coding session working on open source projects.'
   },
   {
     id: 6,
-    src: 'https://images.pexels.com/photos/1181355/pexels-photo-1181355.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Project Demo',
-    category: 'Events',
+    src: '/photo6.jpg',
+    title: 'Community Meetup',
+    category: 'Community',
     description: 'Demo day where teams showcase their innovative solutions.'
   },
   {
     id: 7,
-    src: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo7.jpg',
     title: 'Networking Event',
     category: 'Community',
     description: 'Professional networking event connecting industry leaders with emerging talent.'
   },
   {
     id: 8,
-    src: 'https://images.pexels.com/photos/1181346/pexels-photo-1181346.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo8.jpg',
     title: 'Tech Talk',
-    category: 'Workshops',
+    category: 'Events',
     description: 'Expert-led session on the latest trends in artificial intelligence.'
   },
   {
     id: 9,
-    src: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo9.jpg',
     title: 'Startup Pitch',
-    category: 'Events',
+    category: 'Community',
     description: 'Startup pitch competition with venture capital investors as judges.'
   },
   {
     id: 10,
-    src: 'https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/photo10.jpg',
     title: 'Code Review',
-    category: 'Workshops',
+    category: 'Hackathon',
     description: 'Peer code review session helping developers improve their skills.'
   },
   {
     id: 11,
-    src: 'https://images.pexels.com/photos/1181435/pexels-photo-1181435.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Innovation Lab',
-    category: 'Community',
-    description: 'Experimental lab where members explore cutting-edge technologies.'
+    src: '/photo11.jpg',
+    title: 'Award Ceremony',
+    category: 'Awards',
+    description: 'Celebrating the winners of our annual innovation challenge.'
   },
   {
     id: 12,
-    src: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=800',
-    title: 'Global Summit',
-    category: 'Awards',
+    src: '/photo12.jpg',
+    title: 'Dev Gathering',
+    category: 'Hackathon',
     description: 'Annual global summit bringing together tech leaders from around the world.'
+  },
+  {
+    id: 13,
+    src: '/photo13.jpg',
+    title: 'Hack Heist',
+    category: 'Hackathon',
+    description: '24-hour hackathon focused on rapid prototyping and innovation.'
   }
 ];
 
