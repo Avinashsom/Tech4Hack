@@ -22,11 +22,20 @@ export function Footer() {
               collaboration, and cutting-edge hackathons.
             </p>
             <div className="flex space-x-4">
-              <Linkedin href='https://www.linkedin.com/company/tech4hack/' className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
-              <Github className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
-              <Instagram href='https://www.instagram.com/tech4hack.community/' className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
-              <Mail href='mailto:tech4hack.community@gmail.com' className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
+              <a href="https://www.linkedin.com/company/tech4hack/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
+              </a>
+              <a href="https://github.com/tech4hack" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <Github className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
+              </a>
+              <a href="https://www.instagram.com/tech4hack.community/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <Instagram className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
+              </a>
+              <a href="mailto:tech4hack.community@gmail.com" aria-label="Email">
+                <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground cursor-pointer transition-colors" />
+              </a>
             </div>
+
           </div>
 
           <div>
