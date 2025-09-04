@@ -16,7 +16,7 @@ const galleryImages = [
     id: 2,
     src: '/photo2.jpg',
     title: 'Hackhaven',
-    category: 'Hackathon',
+    category: 'Events',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const galleryImages = [
     id: 4,
     src: '/photo4.jpg',
     title: 'Hackathon',
-    category: 'Hackathon',
+    category: 'Events',
   },
   {
     id: 5,

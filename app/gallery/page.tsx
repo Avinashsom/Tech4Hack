@@ -21,7 +21,7 @@ const galleryImages = [
     id: 2,
     src: '/photo2.jpg',
     title: 'Hackhaven',
-    category: 'Hackathon',
+    category: 'Events',
     description: 'Intensive coding workshop focusing on modern web development frameworks.'
   },
   {
@@ -35,7 +35,7 @@ const galleryImages = [
     id: 4,
     src: '/photo4.jpg',
     title: 'Hackathon',
-    category: 'Hackathon',
+    category: 'Events',
     description: 'Celebrating the winners of our annual innovation challenge.'
   },
   {
@@ -77,7 +77,7 @@ const galleryImages = [
     id: 10,
     src: '/photo10.jpg',
     title: 'Code Review',
-    category: 'Hackathon',
+    category: 'Events',
     description: 'Peer code review session helping developers improve their skills.'
   },
   {
@@ -91,14 +91,14 @@ const galleryImages = [
     id: 12,
     src: '/photo12.jpg',
     title: 'Dev Gathering',
-    category: 'Hackathon',
+    category: 'Events',
     description: 'Annual global summit bringing together tech leaders from around the world.'
   },
   {
     id: 13,
     src: '/photo13.jpg',
     title: 'Hack Heist',
-    category: 'Hackathon',
+    category: 'Events',
     description: '24-hour hackathon focused on rapid prototyping and innovation.'
   }
 ];
