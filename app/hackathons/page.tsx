@@ -14,7 +14,7 @@ const hackathons = [
     id: 1,
     title: 'TechSangam 2.0',
     date: 'September 6, 2025',
-    location: 'Throughtworks Office, Gurugram',
+    location: 'Microsoft Office Sovereign, Noida',
     participants: '500+',
     // prize: '$50,000',
     status: 'upcoming',
@@ -23,7 +23,7 @@ const hackathons = [
     image: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=600',
     tags: ['AI', 'Technology', 'Innovation'],
     timeline: '6 hours',
-    sponsors: ['Google Cloud', 'NVIDIA', 'Microsoft']
+    sponsors: ['ReSkill', 'HackWithIndia', 'Microsoft']
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const hackathons = [
     // status: 'upcoming',
     description: 'In collaboration with GDG MIET, this hackathon brought together over 500 participated.',
     longDescription: 'Fostering innovation, problem-solving, and team-building',
-    image: 'https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/photo13.jpg',
     tags: ['Problem-Solving', 'Team', 'Innovation'],
     timeline: '12 hours',
     sponsors: ['MIET', 'GDG',]
@@ -95,7 +95,7 @@ const hackathons = [
     // status: 'upcoming',
     description: 'Co-hosted with ABES-EC, this hackathon encouraged creative solutions and hands-on product development among students teams.',
     // longDescription: 'Fostering innovation, problem-solving, and team-building',
-    image: 'https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/photo2.jpg',
     tags: ['Problem-Solving', 'Team', 'Innovation'],
     timeline: '12 hours',
     sponsors: ['ABES', 'GDG',]
@@ -110,7 +110,7 @@ const hackathons = [
     // status: 'upcoming',
     description: 'Organised with MLSA MIET, this event promoted teamwork, tech exploration, startup thinking in a hackathon format.',
     // longDescription: 'Fostering innovation, problem-solving, and team-building',
-    image: 'https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/photo12.jpg',
     tags: ['Problem-Solving', 'Team', 'Innovation'],
     timeline: '12 hours',
     sponsors: ['MIET', 'MLSA',]
