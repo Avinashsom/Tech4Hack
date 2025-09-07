@@ -43,7 +43,7 @@ const teamMembers = [
   },
   {
     name: 'Avinash Som',
-    role: 'Technical Lead',
+    role: 'Technical Head',
     image: '/Avinash.jpg',
     bio: 'Mobile app developer and UI/UX enthusiast building delightful experiences. Specializes in React Native and Flutter.',
     longBio: 'Avinash has developed mobile applications that have been downloaded millions of times. His focus on user experience and performance optimization has made him a sought-after consultant in the mobile development space.',
@@ -51,6 +51,17 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/avinash-som-4613ab330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     twitter: '#',
     email: 'avinash@tech4hack.com'
+  },
+  {
+    name: 'Nikhil',
+    role: 'Technical Team Member',
+    image: '/Nikhil.jpg',
+    bio: 'A full-stack developer leading with a passion for technology. With deep expertise in the MERN stack and Next.js, committed to building efficient, scalable web solutions and driving technical innovation across projects.',
+    // longBio: 'Pukhraj has helped numerous tech startups and communities build their brand and reach their target audience. His data-driven approach to marketing has consistently delivered impressive growth results.',
+    github: 'https://github.com/nikhilpundir108',
+    linkedin: 'https://www.linkedin.com/in/nikhilpundir108',
+    twitter: '#',
+    email: 'pukhraj@tech4hack.com'
   },
   {
    name: 'Khushi Mavi',
