@@ -6,6 +6,7 @@ import { Gallery } from '@/components/sections/gallery';
 import { Hackathons } from '@/components/sections/hackathons';
 // import { Contact } from '@/components/sections/contact';
 import { Footer } from '@/components/layout/footer';
+import Section2 from '@/components/Section2';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Section2 />
         <About />
         <Team />
         <Gallery />
