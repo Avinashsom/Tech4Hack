@@ -39,17 +39,17 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/avinash-som-4613ab330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     twitter: '#'
   },
-  {
-    name: 'Nikhil',
-    role: 'Technical Team Member',
-    image: '/Nikhil.jpg',
-    bio: 'A full-stack developer leading with a passion for technology. With deep expertise in the MERN stack and Next.js, committed to building efficient, scalable web solutions and driving technical innovation across projects.',
-    // longBio: 'Pukhraj has helped numerous tech startups and communities build their brand and reach their target audience. His data-driven approach to marketing has consistently delivered impressive growth results.',
-    github: 'https://github.com/nikhilpundir108',
-    linkedin: 'https://www.linkedin.com/in/nikhilpundir108',
-    twitter: '#',
-    email: 'pukhraj@tech4hack.com'
-  },
+  // {
+  //   name: 'Nikhil',
+  //   role: 'Technical Team Member',
+  //   image: '/Nikhil.jpg',
+  //   bio: 'A full-stack developer leading with a passion for technology. With deep expertise in the MERN stack and Next.js, committed to building efficient, scalable web solutions and driving technical innovation across projects.',
+  //   // longBio: 'Pukhraj has helped numerous tech startups and communities build their brand and reach their target audience. His data-driven approach to marketing has consistently delivered impressive growth results.',
+  //   github: 'https://github.com/nikhilpundir108',
+  //   linkedin: 'https://www.linkedin.com/in/nikhilpundir108',
+  //   twitter: '#',
+  //   email: 'pukhraj@tech4hack.com'
+  // },
   {
     name: 'Khushi Mavi',
     role: 'Content Lead',
