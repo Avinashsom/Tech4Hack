@@ -17,7 +17,7 @@ const hackathons = [
     location: 'Microsoft Office Sovereign, Noida',
     participants: '500+',
     // prize: '$50,000',
-    status: 'upcoming',
+    // status: 'upcoming',
     description: 'We are now gearing up for our biggest event yet.',
     // longDescription: 'Join us for our biggest AI hackathon yet! Over three intensive days, teams will work on cutting-edge AI solutions that address real-world problems. With mentorship from industry experts and access to premium cloud resources, this is your chance to push the boundaries of artificial intelligence.',
     image: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=600',

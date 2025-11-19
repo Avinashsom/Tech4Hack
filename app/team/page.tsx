@@ -95,17 +95,6 @@ const teamMembers = [
     linkedin: '#',
     twitter: '#',
     email: 'lamiya@tech4hack.com'
-  },
-  {
-    name: 'Pukhraj',
-    role: 'Visual Team Member',
-    image: '/Pukhraj.jpg',
-    bio: 'Digital marketing strategist helping tech communities grow and thrive. Expert in content marketing and social media strategy.',
-    longBio: 'Pukhraj has helped numerous tech startups and communities build their brand and reach their target audience. His data-driven approach to marketing has consistently delivered impressive growth results.',
-    github: '#',
-    linkedin: '#',
-    twitter: '#',
-    email: 'pukhraj@tech4hack.com'
   }
 ];
 const containerVariants: Variants = {

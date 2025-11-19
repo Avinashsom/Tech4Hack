@@ -76,15 +76,6 @@ const teamMembers = [
     github: '#',
     linkedin: '#',
     twitter: '#'
-  },
-  {
-    name: 'Pukhraj',
-    role: 'Visual Team Member',
-    image: '/Pukhraj.jpg',
-    bio: 'Digital marketing strategist helping tech communities grow and thrive.',
-    github: '#',
-    linkedin: '#',
-    twitter: '#'
   }
 ];
 

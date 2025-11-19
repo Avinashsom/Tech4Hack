@@ -19,9 +19,9 @@ export function Hero() {
   // };
 
   const stats = [
-    { value: '900+', label: 'Active Members' },
+    { value: '1000+', label: 'Active Members' },
     { value: '15+', label: 'Projects Built' },
-    { value: '6+', label: 'Hackathons Hosted' }
+    { value: '10+', label: 'Hackathons Hosted' }
   ];
 
   return (
