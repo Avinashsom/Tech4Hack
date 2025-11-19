@@ -221,7 +221,7 @@ export default function AboutPage() {
                 { label: 'Founded', value: '2025' },
                 { label: 'Cities', value: '5+' },
                 { label: 'Events', value: '10+' },
-                { label: 'Community Reach', value: '5k+' }
+                { label: 'Community Reach', value: '50k+' }
               ].map((stat, index) => (
                 <motion.div
                   key={index}
