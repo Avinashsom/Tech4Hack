@@ -7,7 +7,7 @@ const teamMembers = [
     name: 'Naitik Kumar',
     role: 'Founder & Lead',
     image: '/Naitik.jpg',
-    bio: 'Full-stack developer with 8+ years experience in fintech and AI.',
+    bio: 'Naitik Kumar, Founder of Tech4Hack, leverages experience from top institutes and companies to create practical, accessible, AI-driven tech learning solutions for students.',
     github: '#',
     linkedin: '#',
     twitter: '#'
@@ -16,7 +16,7 @@ const teamMembers = [
     name: 'Yash Goyal',
     role: 'Co-Founder & Co-Lead',
     image: '/Yash.jpg',
-    bio: 'Former Google engineer passionate about open source and education.',
+    bio: 'Co-founder and Lead of Tech4Hack, working to build a strong tech community by organizing hackathons, workshops, and real project-based events that help students gain practical skills.',
     github: '#',
     linkedin: '#',
     twitter: '#'
@@ -34,22 +34,22 @@ const teamMembers = [
     name: 'Avinash Som',
     role: 'Technical Lead',
     image: '/Avinash.jpg',
-    bio: 'Mobile app developer and UI/UX enthusiast building delightful experiences.',
+    bio: 'A dedicated full-stack developer skilled in the MERN stack and Next.js, focused on building scalable web applications and delivering innovative technical solutions.',
     github: '#',
     linkedin: 'https://www.linkedin.com/in/avinash-som-4613ab330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     twitter: '#'
   },
-  // {
-  //   name: 'Nikhil',
-  //   role: 'Technical Team Member',
-  //   image: '/Nikhil.jpg',
-  //   bio: 'A full-stack developer leading with a passion for technology. With deep expertise in the MERN stack and Next.js, committed to building efficient, scalable web solutions and driving technical innovation across projects.',
-  //   // longBio: 'Pukhraj has helped numerous tech startups and communities build their brand and reach their target audience. His data-driven approach to marketing has consistently delivered impressive growth results.',
-  //   github: 'https://github.com/nikhilpundir108',
-  //   linkedin: 'https://www.linkedin.com/in/nikhilpundir108',
-  //   twitter: '#',
-  //   email: 'pukhraj@tech4hack.com'
-  // },
+  {
+    name: 'Nikhil',
+    role: 'Technical Team Member',
+    image: '/Nikhil.jpg',
+    bio: 'A full-stack developer leading with a passion for technology. With deep expertise in the MERN stack and Next.js, committed to building efficient, scalable web solutions and driving technical innovation across projects.',
+    // longBio: 'Pukhraj has helped numerous tech startups and communities build their brand and reach their target audience. His data-driven approach to marketing has consistently delivered impressive growth results.',
+    github: 'https://github.com/nikhilpundir108',
+    linkedin: 'https://www.linkedin.com/in/nikhilpundir108',
+    twitter: '#',
+    email: 'pukhraj@tech4hack.com'
+  },
   {
     name: 'Khushi Mavi',
     role: 'Content Lead',
@@ -72,7 +72,7 @@ const teamMembers = [
     name: 'Lamiya',
     role: 'Visual Team Manager',
     image: '/Lamiya.jpg',
-    bio: 'Digital marketing strategist helping tech communities grow and thrive.',
+    bio: '3rd-year B.Tech CSE student at MIET, passionate about cybersecurity and building hands-on skills in network security, ethical hacking, and data protection.',
     github: '#',
     linkedin: '#',
     twitter: '#'
